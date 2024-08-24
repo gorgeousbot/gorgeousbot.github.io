@@ -9,6 +9,7 @@
       "dragonCityCmdDesc":"<strong>-</strong> é o prefixo padrão.",
       "configurationCmdDesc":"Subcomandos disponíveis no <strong>/configurações</strong>.",
       "donateDesc":"<center>Apoie nosso projeto com uma <strong>doação</strong>. Não oferecemos vantagens diretas para doadores no momento, mas sua ajuda será imensamente valorizada!</center>",
+      "alert": "Website em desenvolvimento.",
       "commands":{
          "dragonCity":[
             {
@@ -92,6 +93,7 @@
       "dragonCityCmdDesc":"<strong>-</strong> es el prefijo predeterminado.",
       "configurationCmdDesc":"Subcomandos disponibles en el <strong>/configuraciones</strong>.",
       "donateDesc":"<center>Apóyanos para seguir operativos con tu <strong>donación</strong>. Aunque no ofrecemos beneficios directos por ahora, tu ayuda será muy agradecida.</center>",
+      "alert": "Sitio web en desarrollo.",
       "commands":{
          "dragonCity":[
             {
@@ -175,6 +177,7 @@
       "dragonCityCmdDesc":"<strong>-</strong> is the default prefix.",
       "configurationCmdDesc":"Subcommands available in the <strong>/configurations</strong> command.",
       "donateDesc":"<center>Support us with your <strong>donation</strong> to stay operational. While there are no direct benefits for donors at the moment, we would greatly appreciate your help!</center>",
+      "alert": "Website under development.",
       "commands":{
          "dragonCity":[
             {

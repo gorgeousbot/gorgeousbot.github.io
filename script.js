@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
+    
     const links = document.querySelectorAll('nav ul li a');
     const sections = document.querySelectorAll('.section');
     const subnavButtons = document.querySelectorAll('.subnav button');
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     const data = await (await fetch('data.json')).json();
+    alert(data[language].alert);
 
     function updateText(text) {
         document.getElementById('home-title').textContent = text.botName;
