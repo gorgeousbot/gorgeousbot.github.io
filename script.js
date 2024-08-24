@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function displayCommands(category) {
         const commands = data[language].commands[category];
         commandsList[category].innerHTML = '';
+        commandsList[category].scrollTo(0, 0);
         commands.sort((a, b) => a.name.localeCompare(b.name))
         .sort((a, b) => {
             if (a.prefix && !b.prefix) return -1;

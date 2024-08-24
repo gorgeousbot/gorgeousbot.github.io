@@ -408,6 +408,11 @@ main {
         height: 50px;
     }
     
+    
+    #commands {
+        margin-top: -15px;
+    }
+    
     & .flex-donate {
         justify-content: space-between;
     }
