@@ -1,0 +1,251 @@
+{
+   "pt":{
+      "botName":"Gorgeous",
+      "botDesc":"Seu guia rápido para Dragon City! Obtenha informações detalhadas sobre cada dragão, eventos como Corrida Heróica, calculadoras e muito mais.",
+      "homeBtnText":"INÍCIO",
+      "commandsBtnText":"COMANDOS",
+      "donateBtnText":"DOAR",
+      "configurationBtnText":"CONFIGURAÇÕES",
+      "dragonCityCmdDesc":"<strong>-</strong> é o prefixo padrão.",
+      "configurationCmdDesc":"Subcomandos disponíveis no <strong>/configurações</strong>.",
+      "donateDesc":"<center>Apoie nosso projeto com uma <strong>doação</strong>. Não oferecemos vantagens diretas para doadores no momento, mas sua ajuda será imensamente valorizada!</center>",
+      "commands":{
+         "dragonCity":[
+            {
+               "name":"livro",
+               "desc":"Acesse informações completas sobre dragões.",
+               "tuto":"%1livro gorge",
+               "prefix":true
+            },
+            {
+               "name":"alimentar",
+               "desc":"Calcule a quantidade exata de comida necessária para alimentar seus dragões.",
+               "tuto":"%1alimentar 70",
+               "prefix":true
+            },
+            {
+               "name":"imagem",
+               "desc":"Veja imagens de qualquer dragão disponível atualmente.",
+               "tuto":"%1imagem gorge",
+               "prefix":true
+            },
+            {
+               "name":"avaliar",
+               "desc":"Avalie o desempenho de um dragão ou equipe.",
+               "tuto":"%1avaliar dragões (se mais de um, separe por vírgulas)."
+            },
+            {
+               "name":"rank velocidade",
+               "desc":"Classifique os dragões com base na velocidade."
+            }
+         ],
+         "guide":[
+            {
+               "name":"corrida_heroica",
+               "desc":"Guia completo para o evento Corrida Heróica.",
+               "prefix": true
+            },
+            {
+               "name":"arenas",
+               "desc":"Confira informações sobre as Arenas Mestres atuais e futuras.",
+               "prefix":true,
+               "spoiler":true
+            },
+            {
+               "name":"baus_alianca",
+               "desc":"Calendário dos próximos Baús da Aliança.",
+               "prefix":true,
+               "spoiler":true
+            }
+         ],
+         "configurations":[
+            {
+               "name":"idioma",
+               "desc":"Altere o idioma do BOT Gorgeous conforme sua preferência."
+            },
+            {
+               "name":"prefixo",
+               "desc":"Personalize o prefixo do BOT Gorgeous."
+            },
+            {
+               "name":"spoilers",
+               "desc":"Ative ou desative informações não divulgadas oficialmente."
+            },
+            {
+               "name":"comandos_prefixo",
+               "desc":"Habilite ou desabilite comandos com prefixo."
+            },
+            {
+                "name": "comando_adaptado",
+                "desc": "Quando ativado, o idioma dos comandos é ajustado automaticamente para o usuário."
+            }
+         ]
+      }
+   },
+   "es":{
+      "botName":"Gorgeous",
+      "botDesc":"¡Tu guía rápida para Dragon City! Accede a información detallada sobre cada dragón, eventos como la Carrera Heroica, calculadoras y más.",
+      "homeBtnText":"INICIO",
+      "commandsBtnText":"COMANDOS",
+      "donateBtnText":"DONAR",
+      "configurationBtnText":"CONFIGURACIÓN",
+      "dragonCityCmdDesc":"<strong>-</strong> es el prefijo predeterminado.",
+      "configurationCmdDesc":"Subcomandos disponibles en el <strong>/configuraciones</strong>.",
+      "donateDesc":"<center>Apóyanos para seguir operativos con tu <strong>donación</strong>. Aunque no ofrecemos beneficios directos por ahora, tu ayuda será muy agradecida.</center>",
+      "commands":{
+         "dragonCity":[
+            {
+               "name":"libro",
+               "desc":"Accede a información completa sobre dragones.",
+               "tuto":"%1libro gorge",
+               "prefix":true
+            },
+            {
+               "name":"alimentar",
+               "desc":"Calcula la cantidad exacta de comida necesaria para alimentar a tus dragones.",
+               "tuto":"%1alimentar 70",
+               "prefix":true
+            },
+            {
+               "name":"imagen",
+               "desc":"Visualiza imágenes de cualquier dragón actualmente disponible.",
+               "tuto":"%1imagen gorge",
+               "prefix":true
+            },
+            {
+               "name":"revision",
+               "desc":"Evalúa el rendimiento de un dragón o equipo.",
+               "tuto":"%1revision dragones (si hay más de uno, sepáralos con comas)."
+            },
+            {
+               "name":"rank velocidad",
+               "desc":"Clasifica los dragones según su velocidad."
+            }
+         ],
+         "guide":[
+            {
+               "name":"carrera_heroica",
+               "desc":"Guía completa para el evento Carrera Heroica.",
+               "prefix": true
+            },
+            {
+               "name":"arenas",
+               "desc":"Consulta información sobre las Arenas Máster actuales y futuras.",
+               "prefix":true,
+               "spoiler":true
+            },
+            {
+               "name":"cofre_alianza",
+               "desc":"Calendario de los próximos Cofres de la Alianza.",
+               "prefix":true,
+               "spoiler":true
+            }
+         ],
+         "configurations":[
+            {
+               "name":"idioma",
+               "desc":"Cambia el idioma del BOT Gorgeous según tu preferencia."
+            },
+            {
+               "name":"prefijo",
+               "desc":"Personaliza el prefijo del BOT Gorgeous."
+            },
+            {
+               "name":"spoilers",
+               "desc":"Activa o desactiva información no oficial."
+            },
+            {
+               "name":"comandos_prefijo",
+               "desc":"Habilita o deshabilita los comandos con prefijo."
+            },
+            {
+                "name": "comando_adaptado",
+                "desc": "Cuando está activado, el idioma de los comandos se ajusta automáticamente según el usuario."
+            }
+         ]
+      }
+   },
+   "en":{
+      "botName":"Gorgeous",
+      "botDesc":"Your quick guide to Dragon City! Access detailed information on every dragon, events like the Heroic Race, calculators, and more.",
+      "homeBtnText":"HOME",
+      "commandsBtnText":"COMMANDS",
+      "donateBtnText":"DONATE",
+      "configurationBtnText":"CONFIGURATIONS",
+      "dragonCityCmdDesc":"<strong>-</strong> is the default prefix.",
+      "configurationCmdDesc":"Subcommands available in the <strong>/configurations</strong> command.",
+      "donateDesc":"<center>Support us with your <strong>donation</strong> to stay operational. While there are no direct benefits for donors at the moment, we would greatly appreciate your help!</center>",
+      "commands":{
+         "dragonCity":[
+            {
+               "name":"book",
+               "desc":"Access complete information about dragons.",
+               "tuto":"%1book gorge",
+               "prefix":true
+            },
+            {
+               "name":"feed",
+               "desc":"Calculate the exact amount of food needed to feed your dragons.",
+               "tuto":"%1feed 70",
+               "prefix":true
+            },
+            {
+               "name":"image",
+               "desc":"View images of any currently available dragon.",
+               "tuto":"%1image gorge",
+               "prefix":true
+            },
+            {
+               "name":"review",
+               "desc":"Evaluate a dragon or team performance.",
+               "tuto":"%1review dragons (if more than one, separate with commas)."
+            },
+            {
+               "name":"rank speed",
+               "desc":"Rank dragons by speed."
+            }
+         ],
+         "guide":[
+            {
+               "name":"heroic_race",
+               "desc":"Comprehensive guide for the Heroic Race event.",
+               "prefix": true
+            },
+            {
+               "name":"arenas",
+               "desc":"Check information on the current and upcoming Master Arenas.",
+               "prefix":true,
+               "spoiler":true
+            },
+            {
+               "name":"alliance_chests",
+               "desc":"Calendar for the upcoming Alliance Chests.",
+               "prefix":true,
+               "spoiler":true
+            }
+         ],
+         "configurations":[
+            {
+               "name":"language",
+               "desc":"Change the Gorgeous BOT language to your preference."
+            },
+            {
+               "name":"prefix",
+               "desc":"Customize the Gorgeous BOT prefix."
+            },
+            {
+               "name":"spoilers",
+               "desc":"Enable or disable unofficial information."
+            },
+            {
+               "name":"commands_prefix",
+               "desc":"Enable or disable commands using prefixes."
+            },
+            {
+                "name": "adaptive_command",
+                "desc": "When enabled, the command language adjusts automatically based on the user."
+            }
+         ]
+      }
+   }
+}

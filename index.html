@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorgeous BOT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home"><i class="fas fa-home"></i> <span id="home-nav">Home</span></a></li>
+                <li><a href="#" data-section="commands"><i class="fas fa-terminal"></i> <span id="commands-nav">Comandos</span></a></li>
+                <li><a href="#" data-section="donate"><i class="fas fa-donate"></i> <span id="donate-nav">Donate</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home" class="section">
+            <h1><span id="home-title">Gorgeous</span></h1>
+            <p><span id="home-description">Your quick guide to Dragon City to Discord! Get information on every dragon, Heroic Race, food calculator, and more</span></p>
+            <button class="cta-button"><i class="fab fa-discord"></i> <span id="add-discord-text">Add to Discord</span></button>
+            <img src="gorge.png" id="gorge" />
+        </div>
+        <div id="commands" class="section">
+            <div class="subnav">
+                <button data-category="dragonCity"><i class="fas fa-dragon"></i> <span>Game</span></button>
+                <button data-category="guide"><i class="fas fa-calendar"></i> <span id="guide-btn">Guide</span></button>
+                <button data-category="configurations"><i class="fas fa-cog"></i> <span>Config</span></button>
+            </div>
+            <div id="dragonCity" class="sub-section active">
+                <center id="dragon-city-desc">...</center>
+                <div id="dragon-city-commands-list" class="command-list"></div>
+            </div>
+            <div id="configurations" class="sub-section">
+                <center id="configurations-desc">...</center>
+                <div id="configurations-commands-list" class="command-list"></div>
+            </div>
+            <div id="guide" class="sub-section">
+                <center id="guide-desc">Game Events</center>
+                <div id="guide-commands-list" class="command-list"></div>
+            </div>
+        </div>
+        <div id="donate" class="section">
+            <p><span id="donate-description">...</span></p>
+            <div class="flex-donate">
+                <a href="https://patreon.com/kazwtto?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" class="fab fa-patreon" title="Patreon"></a>
+                <a href="#" class="fab fa-paypal" title="PayPal" style="display: none"></a>
+                <a href="#" class="fab fa-pix" title="Pix" style="display: none"></a>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
