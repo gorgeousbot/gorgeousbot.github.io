@@ -61,24 +61,12 @@
          ],
          "configurations":[
             {
-               "name":"idioma",
-               "desc":"Altere o idioma do BOT Gorgeous conforme sua preferência."
+               "name":"configurar",
+               "desc":"Configuracões gerais do Gorgeous BOT."
             },
             {
                "name":"prefixo",
                "desc":"Personalize o prefixo do BOT Gorgeous."
-            },
-            {
-               "name":"spoilers",
-               "desc":"Ative ou desative informações não divulgadas oficialmente."
-            },
-            {
-               "name":"comandos_prefixo",
-               "desc":"Habilite ou desabilite comandos com prefixo."
-            },
-            {
-                "name": "comando_adaptado",
-                "desc": "Quando ativado, o idioma dos comandos é ajustado automaticamente para o usuário."
             }
          ]
       }
@@ -145,24 +133,12 @@
          ],
          "configurations":[
             {
-               "name":"idioma",
-               "desc":"Cambia el idioma del BOT Gorgeous según tu preferencia."
+               "name":"configurar",
+               "desc":"Configuraciones generales del Gorgeous BOT."
             },
             {
                "name":"prefijo",
                "desc":"Personaliza el prefijo del BOT Gorgeous."
-            },
-            {
-               "name":"spoilers",
-               "desc":"Activa o desactiva información no oficial."
-            },
-            {
-               "name":"comandos_prefijo",
-               "desc":"Habilita o deshabilita los comandos con prefijo."
-            },
-            {
-                "name": "comando_adaptado",
-                "desc": "Cuando está activado, el idioma de los comandos se ajusta automáticamente según el usuario."
             }
          ]
       }
@@ -229,24 +205,12 @@
          ],
          "configurations":[
             {
-               "name":"language",
-               "desc":"Change the Gorgeous BOT language to your preference."
+               "name":"settings",
+               "desc":"General settings for Gorgeous BOT."
             },
             {
                "name":"prefix",
                "desc":"Customize the Gorgeous BOT prefix."
-            },
-            {
-               "name":"spoilers",
-               "desc":"Enable or disable unofficial information."
-            },
-            {
-               "name":"commands_prefix",
-               "desc":"Enable or disable commands using prefixes."
-            },
-            {
-                "name": "adaptive_command",
-                "desc": "When enabled, the command language adjusts automatically based on the user."
             }
          ]
       }
