@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     const data = await (await fetch('data.json')).json();
-    alert(data[language].alert);
+    // alert(data[language].alert);
 
     function updateText(text) {
         document.getElementById('home-title').textContent = text.botName;
