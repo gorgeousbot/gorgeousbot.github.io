@@ -1,4 +1,5 @@
 function shootingStars() {
+    return
     const style = document.createElement('style');
     style.textContent = `
         #stars, #shooting-stars {
