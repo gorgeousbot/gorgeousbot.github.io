@@ -128,8 +128,8 @@ main {
 #home, #donate {
     padding: 30px;
     background-color: var(--header-bg-color);
-    min-height: 80%;
-    max-height: 80%;
+    min-height: 83%;
+    max-height: 83%;
     min-width: 95%;
     max-width: 95%;
     border-radius: 10px;

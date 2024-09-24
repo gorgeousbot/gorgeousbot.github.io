@@ -88,7 +88,7 @@ function shootingStars() {
 
 document.addEventListener('DOMContentLoaded', async () => {
 
-    //shootingStars();
+    shootingStars();
     
     const links = document.querySelectorAll('nav ul li a');
     const sections = document.querySelectorAll('.section');
