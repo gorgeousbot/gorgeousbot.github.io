@@ -1,5 +1,4 @@
 function shootingStars() {
-    return
     const style = document.createElement('style');
     style.textContent = `
         #stars, #shooting-stars {
@@ -89,7 +88,7 @@ function shootingStars() {
 
 document.addEventListener('DOMContentLoaded', async () => {
 
-    shootingStars();
+    //shootingStars();
     
     const links = document.querySelectorAll('nav ul li a');
     const sections = document.querySelectorAll('.section');
