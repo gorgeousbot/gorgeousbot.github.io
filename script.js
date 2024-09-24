@@ -1,4 +1,94 @@
+function shootingStars() {
+    const style = document.createElement('style');
+    style.textContent = `
+        #stars, #shooting-stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+    
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            animation: twinkle 2s infinite;
+        }
+    
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+    
+        .shooting-star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: linear-gradient(45deg, white, rgba(255, 255, 255, 0));
+            opacity: 0;
+            animation: shoot 1s ease-out;
+        }
+    
+        @keyframes shoot {
+            from {
+                transform: translateY(0) translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(-200px) translateX(600px);
+                opacity: 0;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+    
+    const starsContainer = document.createElement('div');
+    starsContainer.id = 'stars';
+    document.body.appendChild(starsContainer);
+    
+    const shootingStarsContainer = document.createElement('div');
+    shootingStarsContainer.id = 'shooting-stars';
+    document.body.appendChild(shootingStarsContainer);
+    
+    function createStars() {
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.top = `${Math.random() * 100}vh`;
+            star.style.left = `${Math.random() * 100}vw`;
+            star.style.animationDelay = `${Math.random() * 2}s`;
+            starsContainer.appendChild(star);
+        }
+    }
+    
+    function createShootingStars() {
+        setInterval(() => {
+            const shootingStar = document.createElement('div');
+            shootingStar.className = 'shooting-star';
+            shootingStar.style.top = `${Math.random() * 100}vh`;
+            shootingStar.style.left = `${Math.random() * 100}vw`;
+            shootingStarsContainer.appendChild(shootingStar);
+            setTimeout(() => {
+                shootingStar.remove();
+            }, 1000);
+        }, 1000);
+    }
+    
+    createStars();
+    createShootingStars();
+}
+
+
 document.addEventListener('DOMContentLoaded', async () => {
+
+    shootingStars();
     
     const links = document.querySelectorAll('nav ul li a');
     const sections = document.querySelectorAll('.section');

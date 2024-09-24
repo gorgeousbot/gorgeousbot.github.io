@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
         
 :root {
     --main-bg-color: #121212;
     --header-bg-color: #1f1f1f;
-    --accent-color: #6200ea;
+    --accent-color: #C6232E;
     --text-color: #fff;
     --text-secondary-color: #bbb;
     --success-color: #4caf50;
@@ -396,7 +398,7 @@ main {
     color: var(--inactive-color);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
     .command-list {
         grid-template-columns: repeat(3, 1fr);
     }
