@@ -128,8 +128,8 @@ main {
 #home, #donate {
     padding: 30px;
     background-color: var(--header-bg-color);
-    min-height: 85%;
-    max-height: 85%;
+    min-height: 80%;
+    max-height: 80%;
     min-width: 95%;
     max-width: 95%;
     border-radius: 10px;
@@ -461,10 +461,11 @@ main {
     }
     
     .command-list {
-        max-height: 550px;
+        max-height: 584px;
         flex-direction: column;
         justify-content: none;
         align-items: none;
+        padding-bottom: 20px;
     }
     
     #donate a {
