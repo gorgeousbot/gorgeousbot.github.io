@@ -1,0 +1,38 @@
+{
+   "application": {
+       "name": "Gorgeous",
+       "description": "Your quick guide to Dragon City! Get detailed information about every dragon, events like Heroic Race, calculators, and more."
+   },
+   "buttons": {
+       "home": "HOME",
+       "commands": "COMMANDS",
+       "donate": "DONATE",
+       "configuration": "CONFIGURATION",
+       "support_server": "SUPPORT SERVER",
+       "add": "ADD TO SERVER"
+   },
+   "commands": {
+       "dragoncity": "<strong>-</strong> is the default prefix.",
+       "configuration": "Subcommands available in <strong>/configuration</strong>."
+   },
+   "donation": {
+       "description": "<center>Support our project with a <strong>donation</strong>. We do not offer direct benefits to donors at the moment, but your help will be immensely appreciated!</center>"
+   },
+   "alerts": {
+       "development": "Website under development."
+   },
+   "features": [
+       {
+           "title": "Always Updated",
+           "description": "Stay ahead with real-time updates on game content and features."
+       },
+       {
+           "title": "Multi-Language Support",
+           "description": "Interact in your preferred language, making it easier for everyone."
+       },
+       {
+           "title": "Slash & Prefix Commands",
+           "description": "Enjoy flexibility with both modern slash commands and traditional text commands."
+       }
+   ]
+}

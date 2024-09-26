@@ -1,0 +1,38 @@
+{
+   "application": {
+       "name": "Gorgeous",
+       "description": "¡Tu guía rápida para Dragon City! Obtén información detallada sobre cada dragón, eventos como la Carrera Heroica, calculadoras y más."
+   },
+   "buttons": {
+       "home": "INICIO",
+       "commands": "COMANDOS",
+       "donate": "DONAR",
+       "configuration": "CONFIGURACIÓN",
+       "support_server": "Servidor Oficial",
+       "add": "Agregar al Servidor"
+   },
+   "commands": {
+       "dragoncity": "<strong>-</strong> es el prefijo predeterminado.",
+       "configuration": "Subcomandos disponibles en <strong>/configuración</strong>."
+   },
+   "donation": {
+       "description": "<center>Apoya nuestro proyecto con una <strong>donación</strong>. No ofrecemos beneficios directos para los donantes en este momento, ¡pero tu ayuda será inmensamente apreciada!</center>"
+   },
+   "alerts": {
+       "development": "Sitio web en desarrollo."
+   },
+   "features": [
+       {
+           "title": "Siempre Actualizado",
+           "description": "Mantente al día con actualizaciones en tiempo real sobre el contenido y las características del juego."
+       },
+       {
+           "title": "Soporte Multilenguaje",
+           "description": "Interactúa en tu idioma preferido, haciéndolo más fácil para todos."
+       },
+       {
+           "title": "Comandos Slash y Prefijo",
+           "description": "Disfruta de la flexibilidad con comandos slash modernos y comandos de texto tradicionales."
+       }
+   ]
+}

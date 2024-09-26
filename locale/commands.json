@@ -1,0 +1,153 @@
+{
+	"dragonCity": [{
+			"name": {
+				"pt": "livro",
+				"en": "book",
+				"es": "libro"
+			},
+			"desc": {
+				"pt": "Acesse informações completas sobre dragões.",
+				"en": "Access complete information about dragons.",
+				"es": "Accede a información completa sobre dragones."
+			},
+			"tuto": {
+				"pt": "%1livro gorge",
+				"en": "%1book gorge",
+				"es": "%1libro gorge"
+			},
+			"prefix": true
+		},
+		{
+			"name": {
+				"pt": "alimentar",
+				"en": "feed",
+				"es": "alimentar"
+			},
+			"desc": {
+				"pt": "Calcule a quantidade exata de comida necessária para alimentar seus dragões.",
+				"en": "Calculate the exact amount of food needed to feed your dragons.",
+				"es": "Calcula la cantidad exacta de comida necesaria para alimentar a tus dragones."
+			},
+			"tuto": {
+				"pt": "%1alimentar 70",
+				"en": "%1feed 70",
+				"es": "%1alimentar 70"
+			},
+			"prefix": true
+		},
+		{
+			"name": {
+				"pt": "imagem",
+				"en": "image",
+				"es": "imagen"
+			},
+			"desc": {
+				"pt": "Veja imagens de qualquer dragão disponível atualmente.",
+				"en": "View images of any currently available dragon.",
+				"es": "Visualiza imágenes de cualquier dragón actualmente disponible."
+			},
+			"tuto": {
+				"pt": "%1imagem gorge",
+				"en": "%1image gorge",
+				"es": "%1imagen gorge"
+			},
+			"prefix": true
+		},
+		{
+			"name": {
+				"pt": "avaliar",
+				"en": "review",
+				"es": "revision"
+			},
+			"desc": {
+				"pt": "Avalie o desempenho de um dragão ou equipe.",
+				"en": "Evaluate a dragon or team performance.",
+				"es": "Evalúa el rendimiento de un dragón o equipo."
+			},
+			"tuto": {
+				"pt": "%1avaliar dragões (se mais de um, separe por vírgulas).",
+				"en": "%1review dragons (if more than one, separate with commas).",
+				"es": "%1revision dragones (si hay más de uno, sepáralos con comas)."
+			}
+		},
+		{
+			"name": {
+				"pt": "rank velocidade",
+				"en": "rank speed",
+				"es": "rank velocidad"
+			},
+			"desc": {
+				"pt": "Classifique os dragões com base na velocidade.",
+				"en": "Rank dragons by speed.",
+				"es": "Clasifica los dragones según su velocidad."
+			}
+		}
+	],
+	"guide": [{
+			"name": {
+				"pt": "corrida_heroica",
+				"en": "heroic_race",
+				"es": "carrera_heroica"
+			},
+			"desc": {
+				"pt": "Guia completo para o evento Corrida Heróica.",
+				"en": "Comprehensive guide for the Heroic Race event.",
+				"es": "Guía completa para el evento Carrera Heroica."
+			},
+			"prefix": true
+		},
+		{
+			"name": {
+				"pt": "arenas",
+				"en": "arenas",
+				"es": "arenas"
+			},
+			"desc": {
+				"pt": "Confira informações sobre as Arenas Mestres atuais e futuras.",
+				"en": "Check information on the current and upcoming Master Arenas.",
+				"es": "Consulta información sobre las Arenas Máster actuales y futuras."
+			},
+			"prefix": true,
+			"spoiler": true
+		},
+		{
+			"name": {
+				"pt": "baus_alianca",
+				"en": "alliance_chests",
+				"es": "cofre_alianza"
+			},
+			"desc": {
+				"pt": "Calendário dos próximos Baús da Aliança.",
+				"en": "Calendar for the upcoming Alliance Chests.",
+				"es": "Calendario de los próximos Cofres de la Alianza."
+			},
+			"prefix": true,
+			"spoiler": true
+		}
+	],
+	"configurations": [{
+			"name": {
+				"pt": "configurar",
+				"en": "settings",
+				"es": "configurar"
+			},
+			"desc": {
+				"pt": "Configurações gerais do Gorgeous BOT.",
+				"en": "General settings for Gorgeous BOT.",
+				"es": "Configuraciones generales del Gorgeous BOT."
+			}
+		},
+		{
+			"name": {
+				"pt": "prefixo",
+				"en": "prefix",
+				"es": "prefijo"
+			},
+			"desc": {
+				"pt": "Personalize o prefixo do BOT Gorgeous.",
+				"en": "Customize the Gorgeous BOT prefix.",
+				"es": "Personaliza el prefijo del BOT Gorgeous."
+			}
+		}
+	]
+}
