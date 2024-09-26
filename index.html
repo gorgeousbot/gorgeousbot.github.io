@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gorgeous BOT</title>
+    <title data-translate="application.name">Gorgeous BOT</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -18,31 +17,55 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#" data-section="home"><i class="fas fa-home"></i> <span id="home-nav">Home</span></a></li>
-                <li><a href="#" data-section="commands"><i class="fas fa-terminal"></i> <span id="commands-nav">Comandos</span></a></li>
-                <li><a href="#" data-section="donate"><i class="fas fa-donate"></i> <span id="donate-nav">Donate</span></a></li>
+                <li><a href="#" data-section="home"><i class="fas fa-home"></i> <span id="home-nav" data-translate="buttons.home">Home</span></a></li>
+                <li><a href="#" data-section="commands"><i class="fas fa-terminal"></i> <span id="commands-nav" data-translate="buttons.commands">Comandos</span></a></li>
+                <li><a href="#" data-section="donate"><i class="fas fa-donate"></i> <span id="donate-nav" data-translate="buttons.donate">Donate</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="home" class="section">
-            <h1><span id="home-title">Gorgeous</span></h1>
-            <p><span id="home-description">Your quick guide to Dragon City to Discord! Get information on every dragon, Heroic Race, food calculator, and more</span></p>
-            <button class="cta-button"><i class="fab fa-discord"></i> <span id="add-discord-text">ADD TO YOU SERVER!</span></button>
-            <img src="gorge.png" id="gorge" />
+        <div id="home" class="section active">
+            <h1><span id="home-title" data-translate="application.name">Gorgeous</span></h1>
+            <p id="home-description" data-translate="application.description">Your quick guide to Dragon City on Discord! Get detailed information on every dragon, Heroic Race, food calculator, and more.</p>
+            <div class="home-buttons">
+                <a class="cta-button" href="https://discord.com/oauth2/authorize?client_id=871359665773096971"><i class="fas fa-robot"></i> <span data-translate="buttons.add">>ADD TO SERVER!</span></a>
+                <a class="cta-button" href="https://discord.gg/NQdRbXVF2W"><i class="fab fa-discord"></i> <span data-translate="buttons.support_server">>SUPPORT SERVER</span></a>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3 data-translate="features.0.title">Always Updated</h3>
+                    <p data-translate="features.0.description">Stay ahead with real-time updates on game content and features.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-globe"></i>
+                    <h3 data-translate="features.1.title">Multi-Language Support</h3>
+                    <p data-translate="features.1.description">Interact in your preferred language, making it easier for everyone.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-code"></i>
+                    <h3 data-translate="features.2.title">Slash & Prefix Commands</h3>
+                    <p data-translate="features.2.description">Enjoy flexibility with both modern slash commands and traditional text commands.</p>
+                </div>
+            </div>
+            <img src="gorge.png" id="gorge" alt="Gorgeous Bot Image" />
+            <footer>
+                <h4>We are not affiliated with Dragon City, or SocialPoint SL.</h4>
+                <p>Copyrights belong to their respective owners</p>
+            </footer>
         </div>
         <div id="commands" class="section">
             <div class="subnav">
-                <button data-category="dragonCity"><i class="fas fa-dragon"></i> <span>Game</span></button>
-                <button data-category="guide"><i class="fas fa-calendar"></i> <span id="guide-btn">Guide</span></button>
-                <button data-category="configurations"><i class="fas fa-cog"></i> <span>Config</span></button>
+                <button data-category="dragonCity"><i class="fas fa-dragon"></i> <span data-translate="buttons.general">General</span></button>
+                <button data-category="guide"><i class="fas fa-calendar"></i> <span data-translate="buttons.guide">Guide</span></button>
+                <button data-category="configurations"><i class="fas fa-cog"></i> <span >Config.</span></button>
             </div>
             <div id="dragonCity" class="sub-section active">
-                <center id="dragon-city-desc">...</center>
+                <center data-translate="commands.dragoncity"></center>
                 <div id="dragon-city-commands-list" class="command-list"></div>
             </div>
             <div id="configurations" class="sub-section">
-                <center id="configurations-desc">...</center>
+                <center data-translate="commands.configuration">...</center>
                 <div id="configurations-commands-list" class="command-list"></div>
             </div>
             <div id="guide" class="sub-section">
@@ -51,7 +74,7 @@
             </div>
         </div>
         <div id="donate" class="section">
-            <p><span id="donate-description">...</span></p>
+            <p><span id="donate-description" data-translate="donation.description">...</span></p>
             <div class="flex-donate">
                 <a href="https://patreon.com/kazwtto?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" class="fab fa-patreon" title="Patreon"></a>
                 <a href="#" class="fab fa-paypal" title="PayPal" style="display: none"></a>
