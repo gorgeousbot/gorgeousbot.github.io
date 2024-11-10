@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Cancelled</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .message {
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #666;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">😔</div>
+        <h1>Donation Cancelled</h1>
+        <p class="message">Your donation was cancelled. You can try again anytime by using the donation command in Discord.</p>
+        <a href="discord://discord.com" class="back-button">Return to Discord</a>
+    </div>
+
+    <script>
+        // Traduzir a página baseado na linguagem do navegador
+        const translations = {
+            'pt-BR': {
+                title: 'Doação Cancelada',
+                heading: 'Doação Cancelada',
+                message: 'Sua doação foi cancelada. Você pode tentar novamente a qualquer momento usando o comando de doação no Discord.',
+                button: 'Voltar ao Discord'
+            },
+            'es-ES': {
+                title: 'Donación Cancelada',
+                heading: 'Donación Cancelada',
+                message: 'Tu donación ha sido cancelada. Puedes volver a intentarlo en cualquier momento usando el comando de donación en Discord.',                
+                button: 'Volver a Discord'
+            }
+        };
+
+        const userLang = navigator.language;
+        const translation = translations[userLang] || null;
+
+        if (translation) {
+            document.title = translation.title;
+            document.querySelector('h1').textContent = translation.heading;
+            document.querySelector('.message').textContent = translation.message;
+            document.querySelector('.back-button').textContent = translation.button;
+        }
+    </script>
+</body>
+</html>
