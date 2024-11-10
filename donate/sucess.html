@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Successful!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #32CD32;
+            margin-bottom: 1rem;
+        }
+
+        .message {
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #32CD32;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: #28a428;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🎉</div>
+        <h1>Thank You for Your Donation!</h1>
+        <p class="message">Your payment has been processed successfully. You can now return to Discord to receive your rewards!</p>
+        <a href="discord://discord.com" class="back-button">Return to Discord</a>
+    </div>
+
+    <script>
+        // Traduzir a página baseado na linguagem do navegador
+        const translations = {
+            'pt-BR': {
+                title: 'Doação Bem-sucedida!',
+                heading: 'Obrigado pela sua Doação!',
+                message: 'Seu pagamento foi processado com sucesso. Você pode voltar ao Discord para receber suas recompensas!',
+                button: 'Voltar ao Discord'
+            },
+            'es-ES': {
+                title: '¡Donación Exitosa!',
+                heading: '¡Gracias por tu Donación!',
+                message: '¡Tu pago ha sido procesado con éxito. ¡Puedes volver a Discord para recibir tus recompensas!',
+                button: 'Volver a Discord'
+            }
+        };
+
+        const userLang = navigator.language;
+        const translation = translations[userLang] || null;
+
+        if (translation) {
+            document.title = translation.title;
+            document.querySelector('h1').textContent = translation.heading;
+            document.querySelector('.message').textContent = translation.message;
+            document.querySelector('.back-button').textContent = translation.button;
+        }
+    </script>
+</body>
+</html>
